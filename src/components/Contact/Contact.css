@@ -1,0 +1,34 @@
+.container,contact_container {
+    width: 38%;
+    display: grid;
+    gap: 12%;
+}
+
+.contact_options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 48%;
+    margin: 0 auto;
+}
+
+.contact_option {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact_option-icon {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact_option a {
+    margin-top: 0rem;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
